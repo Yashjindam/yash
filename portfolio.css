@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#folio {
+    background-image: url(hero-background.jpg);
+    background-size: cover;
+    width: 1000px;
+    height: 1000px;
+
+
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 100px;
+    height: 600px;
+}
+
+#name:hover {
+    color: white;
+}
+
+#hero {
+
+    font-weight: bold;
+    font-size: 50px;
+    position: relative;
+    top: -200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+
+
+
+}
+
+#hero:hover {
+    color: rgb(49, 66, 195);
+    cursor: pointer;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+
+
+
+}
+
+
+#space {
+    display: flex;
+    font-size: 70px;
+    font-weight: bold;
+    padding: 24px;
+    text-decoration: none;
+}
+
+#space:hover {
+
+    color: #85A98F;
+    cursor: pointer;
+    ;
+}
+
+#lang {
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: -200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    word-spacing: 15px;
+
+
+}
+
+#lang:hover {
+    cursor: pointer;
+    color: #C6E7FF;
+}
+
+
+
+
+
+
+#menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#home {
+    padding: 24px 6px;
+}
+
+#ABOUT {
+    padding: 24px 6px;
+}
+
+#CONTACT {
+    padding: 24px 6px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#item {
+    padding: 24px 6px;
+}
+
+#item:hover {
+
+    color: #F3F3E0;
+    cursor: pointer;
+}
